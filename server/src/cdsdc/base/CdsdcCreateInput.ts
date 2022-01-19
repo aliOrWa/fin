@@ -1,0 +1,2 @@
+class CdsdcCreateInput {}
+export { CdsdcCreateInput };

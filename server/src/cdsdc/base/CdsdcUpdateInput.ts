@@ -1,0 +1,2 @@
+class CdsdcUpdateInput {}
+export { CdsdcUpdateInput };
