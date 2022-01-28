@@ -47,6 +47,6 @@ async function createViewsTables(client: any) {
   //Creating View Tables
   await client.$executeRaw`CREATE VIEW "Viewtest" AS SELECT "User"."id","User"."username" 
 FROM "User"`;
-  await client.$executeRaw`CREATE VIEW "Bbb" AS SELECT "User"."id","User"."username" 
+  await client.$executeRaw`CREATE VIEW "Bbbazd" AS SELECT "User"."id","User"."username" 
 FROM "User"`;
 }
