@@ -73,31 +73,31 @@
   },
   {
     "role": "user",
-    "resource": "Bbb",
+    "resource": "Bbbazd",
     "action": "create:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Bbb",
+    "resource": "Bbbazd",
     "action": "update:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Bbb",
+    "resource": "Bbbazd",
     "action": "read:own",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Bbb",
+    "resource": "Bbbazd",
     "action": "delete:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Bbb",
+    "resource": "Bbbazd",
     "action": "read:any",
     "attributes": "*"
   }

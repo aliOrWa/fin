@@ -33,7 +33,7 @@ model ViewTest2 {
 }
 
 /// @view 
-model Bbb {
+model Bbbazd {
   id        String   @id @default(cuid())
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
