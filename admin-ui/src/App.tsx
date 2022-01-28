@@ -13,8 +13,8 @@ import { ViewtestList } from "./viewtest/ViewtestList";
 import { ViewtestShow } from "./viewtest/ViewtestShow";
 import { ViewTest2List } from "./viewTest2/ViewTest2List";
 import { ViewTest2Show } from "./viewTest2/ViewTest2Show";
-import { BbbList } from "./bbb/BbbList";
-import { BbbShow } from "./bbb/BbbShow";
+import { BbbazdList } from "./bbbazd/BbbazdList";
+import { BbbazdShow } from "./bbbazd/BbbazdShow";
 import { jwtAuthProvider } from "./auth-provider/ra-auth-jwt";
 
 const App = (): React.ReactElement => {
@@ -63,11 +63,11 @@ const App = (): React.ReactElement => {
           show={ViewTest2Show}
         />
         <Resource
-          name="Bbb"
-          list={BbbList}
-          edit={BbbEdit}
-          create={BbbCreate}
-          show={BbbShow}
+          name="Bbbazd"
+          list={BbbazdList}
+          edit={BbbazdEdit}
+          create={BbbazdCreate}
+          show={BbbazdShow}
         />
       </Admin>
     </div>
